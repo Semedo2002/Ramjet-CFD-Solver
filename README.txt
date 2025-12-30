@@ -1,3 +1,4 @@
+WORK IN PROGRESS ( functions well needs improvement )
 # Supersonic Ramjet CFD Solver
 
 A finite volume Euler solver for axisymmetric supersonic ramjet simulation.
@@ -18,4 +19,5 @@ A finite volume Euler solver for axisymmetric supersonic ramjet simulation.
 ## Notes
 * **Do not modify grid dimensions** in `Grid_Gen` without updating `Config`.
 * If the solver crashes, reduce `Heat_Release_Max` in `Ramjet_Config.m`.
+
 * Visuals are cropped to `y=0.8m` to focus on the engine core.
